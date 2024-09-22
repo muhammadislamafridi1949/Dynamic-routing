@@ -1,0 +1,41 @@
+.deatail-wrapper{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.image-wrapper{
+    width: 50%;
+}
+
+.deatail-wrapper .image-wrapper img{
+    width: 100%;
+    height: 99vh;
+    /* object-fit: contain; */
+}
+.deatail-wrapper :nth-child(2) h1{
+    margin: 70px 0 30px 0;
+    text-transform: capitalize;
+    font-weight: 500
+}
+.image-wrapper ~ div{
+    padding-left: 10px;
+}
+
+
+.deatail-wrapper :nth-child(2) h3{
+    margin-bottom: 70px;
+    font-weight: 500;
+    color: rgb(62, 103, 146);
+}
+
+.deatail-wrapper :nth-child(2) p{
+    text-align: left;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+.deatail-wrapper :nth-child(2) div{
+    font-size: 20px;
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
